@@ -229,6 +229,7 @@
 				1B5C7B75E96B3F3BFD3DA6A7 /* [CP] Embed Pods Frameworks */,
 				8B107BFC94B222D6620BA9C5 /* [CP] Copy Pods Resources */,
 				591424F11DDA19D8003903E6 /* Mapbox token */,
+				591424F21DDA1BB3003903E6 /* Mapbox style */,
 			);
 			buildRules = (
 			);
@@ -332,6 +333,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "token_file=~/projects/TangoIndoorMapApp/PrivateKeys/mapbox_token\ntoken=\"$(cat $token_file)\"\nif [ \"$token\" ]; then\nplutil -replace MGLMapboxAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\necho 'error: Missing Mapbox access token'\nopen 'https://www.mapbox.com/studio/account/tokens/'\necho \"error: Get an access token from <https://www.mapbox.com/studio/account/tokens/>, then create a new file at $token_file that contains the access token.\"\nexit 1\nfi";
+		};
+		591424F21DDA1BB3003903E6 /* Mapbox style */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Mapbox style";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "token_file=~/projects/TangoIndoorMapApp/PrivateKeys/map_style_pokemon\ntoken=\"$(cat $token_file)\"\nif [ \"$token\" ]; then\nplutil -replace MGLMapboxStylePokemon -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\necho 'error: Missing Mapbox access token'\nopen 'https://www.mapbox.com/studio/account/tokens/'\necho \"error: Get an access token from <https://www.mapbox.com/studio/account/tokens/>, then create a new file at $token_file that contains the access token.\"\nexit 1\nfi";
 		};
 		8B107BFC94B222D6620BA9C5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

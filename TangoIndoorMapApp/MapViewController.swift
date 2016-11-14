@@ -365,7 +365,14 @@ class MapViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     
     private func loadMapView(){
         let mapViewFrame = MapHelper.getViewFrame(frameSize: MapVCConstants.mapViewFrameSize)
-        mapView = MGLMapView(frame: mapViewFrame)
+        
+        if let path = Bundle.main.path(forResource: "Info", ofType: "plist"), let keys = NSDictionary(contentsOfFile: path), let styleString = keys["MGLMapboxStylePokemon"] as? String {
+            let styleURL = URL(string: styleString)
+            mapView = MGLMapView(frame: mapViewFrame, styleURL: styleURL)
+        } else {
+            mapView = MGLMapView(frame: mapViewFrame)
+        }
+        
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
