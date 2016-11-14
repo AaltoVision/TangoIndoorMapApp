@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01219B6E20E61FD710DD6C4B51A15C5E /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 452CE17E32F488B31692ACD4FF97FC0B /* Toast-Swift-dummy.m */; };
+		11593F83053BF3B781D79930CA4E394A /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EECE383DC84CF27CC5F87CEA044A819 /* SwiftyBeaver.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1460C922650FA44E1DB4639E011E820B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14940266F330E9501FC3E9C56A94B318 /* Toast.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A17F3CDA9BB9831F58C005B6B96B8AA /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483D4F76C4BCD2994F76082ECB852AF /* SBPlatformDestination.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1BBC9606FD2A96519E58D920EC3977E4 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F016ADA95D1C012A3269D426B9BBA6 /* SwiftyJSON-dummy.m */; };
+		1D3A202B250101C7A69FDA0E8D041270 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660399339E42A362AD964004C3BF7A2B /* FileDestination.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		220662CFAC132D143995C4FBD38B9E6D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB859F1576FB15F124322341A36238D /* SwiftyJSON.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		272CE89C1B19983AA39098790F4B9DC9 /* Pods-TangoIndoorMapApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A3EC0D7DD34386F5FBDDBCC352C5E8 /* Pods-TangoIndoorMapApp-dummy.m */; };
+		421944D702819013D4E910DC62897727 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1205ACFEA8991CC078557B70B79F1F6 /* Filter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		455B558E224452B763039BFBE7E951A4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77182C39C0F0626917FC29CAB94E157F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3BB12DDEECF61B70658FBC0C284185 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
+		5F41D0A9F136D65EC28B69698FE642F3 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F47073985ED16F267D6719CF7BAB3 /* SwiftyBeaver-dummy.m */; };
+		7B1DBCBF26DE40F934E0256943AC3A9A /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59481E50063878E08D75B730661D8DD7 /* BaseDestination.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7BE9E1AF55A53FC2BE7D8360E294CF22 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C15BF609BFE13B8D2AC739F3F21CC27 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FC32AE8F350DA0AF2E9F51885ED6B6 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E9010E3FEDC3689D2E37F9ADE0853 /* AES256CBC.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8359BDBFA4F92947034F0BDA3ADE28EA /* Pods-TangoIndoorMapApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818CCD8F913FE02C14E1F1402EC1C96E /* Pods-TangoIndoorMapApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDB4ED60C67BC1167305DC37FF4C753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		A3502C19CC987540BCBBE32F66BD8C9F /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA8F17B628237A109B9611DAB1BFBD9 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA22C0F0517A452A00CE04B3AD55E8CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		DA33495884B595305DF69577D85C4B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		DD115A35758C49BD7334B3667F9AD668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		E37099F756E82152CB60F0E89E2B0461 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57C47142DB50785B0E36A96249CA32 /* ConsoleDestination.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		675C52A993A0CC78FB5A961F7421B60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710952131111B022374C794E58562576;
+			remoteInfo = "Toast-Swift";
+		};
+		70A3D0A0152E7CC0611BC4AB43A7A002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE3EFEE556A7E46721009B03865CED6;
+			remoteInfo = SwiftyJSON;
+		};
+		A325D3556A6086FF20028D8299BF6445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51696EF9CEEB950F818EB5A4A10063FB;
+			remoteInfo = SwiftyBeaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110408C90177FF3E06B127FAB4F189D7 /* Pods-TangoIndoorMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangoIndoorMapApp.release.xcconfig"; sourceTree = "<group>"; };
+		118E892C466353EAD6A3EF6942ADD496 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14940266F330E9501FC3E9C56A94B318 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		1A2E7C5F961D7CB2A3F17ECCF7954D18 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		1DA8F17B628237A109B9611DAB1BFBD9 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		1DB77447C802CE8201A96A1B6FA99FCB /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B56AAF6BDDFF02550CA3C5E4D36A1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F016ADA95D1C012A3269D426B9BBA6 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		29862E88A7868DBA509B07227045A8DD /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		2C15BF609BFE13B8D2AC739F3F21CC27 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		310B0274F4247B3B9ADEA829E02FBEA3 /* Pods-TangoIndoorMapApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangoIndoorMapApp-resources.sh"; sourceTree = "<group>"; };
+		37A8FB7B2D08BF0E0047D44EB2E6F565 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		4483D4F76C4BCD2994F76082ECB852AF /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		452CE17E32F488B31692ACD4FF97FC0B /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		45BDD39B33C1FC2A219DA2C1C48DBCCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534A7838170B81514AA932A2613FF30B /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		59481E50063878E08D75B730661D8DD7 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = sources/BaseDestination.swift; sourceTree = "<group>"; };
+		59A3EC0D7DD34386F5FBDDBCC352C5E8 /* Pods-TangoIndoorMapApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TangoIndoorMapApp-dummy.m"; sourceTree = "<group>"; };
+		64BDE803E55079F2EA560B4CB47B2CFF /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		660399339E42A362AD964004C3BF7A2B /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = sources/FileDestination.swift; sourceTree = "<group>"; };
+		69439CAEF4F6F84D6E82766C486BDF97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7344C1A8E9BFCCDAAE90265E5E8C195A /* Pods-TangoIndoorMapApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TangoIndoorMapApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		77182C39C0F0626917FC29CAB94E157F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		7D4E9010E3FEDC3689D2E37F9ADE0853 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = sources/AES256CBC.swift; sourceTree = "<group>"; };
+		7E57C47142DB50785B0E36A96249CA32 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		7EECE383DC84CF27CC5F87CEA044A819 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		818CCD8F913FE02C14E1F1402EC1C96E /* Pods-TangoIndoorMapApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TangoIndoorMapApp-umbrella.h"; sourceTree = "<group>"; };
+		84734727148860348EAFA79E9B0C5176 /* Pods-TangoIndoorMapApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangoIndoorMapApp-frameworks.sh"; sourceTree = "<group>"; };
+		8743E3E9CEF72D7EF71E602003D10FF4 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8804D79A582D258D9538DC86DAB1DE60 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		8BFB252209D1AB5D4B666E22244DB275 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9141A6D65933D3257B37F256DC21D0AF /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		914F47073985ED16F267D6719CF7BAB3 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1765B0EEB471FDC0FBF2BE044FE5E23 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		B1205ACFEA8991CC078557B70B79F1F6 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = sources/Filter.swift; sourceTree = "<group>"; };
+		C5F07FBE327492ECAF3ED298EDB61B29 /* Pods-TangoIndoorMapApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TangoIndoorMapApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCB859F1576FB15F124322341A36238D /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		CD8B91281D2B7C71617C4E06CB634CE1 /* Pods_TangoIndoorMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangoIndoorMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F170D7F6591FACCF5411D476C0D7FDFA /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		F1E9445C32A9F8A328202DECC0A4444D /* Pods-TangoIndoorMapApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TangoIndoorMapApp.modulemap"; sourceTree = "<group>"; };
+		F54361DB13E98C31EE23316FBD1EAD61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72343176E58BC04DC3CF1272A824C58 /* Pods-TangoIndoorMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangoIndoorMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE8C158C52AFD281A2DD05B35844388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD115A35758C49BD7334B3667F9AD668 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9E64673E58DAF4582340033C49D999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA33495884B595305DF69577D85C4B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE3245246091B8030DDC723A0257BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDB4ED60C67BC1167305DC37FF4C753 /* Foundation.framework in Frameworks */,
+				5C3BB12DDEECF61B70658FBC0C284185 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C209F37BC35A9D6B47B4D2AA9F76F0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22C0F0517A452A00CE04B3AD55E8CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13390CE3426ADE906C0EB1E273444241 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45BDD39B33C1FC2A219DA2C1C48DBCCA /* Info.plist */,
+				8BFB252209D1AB5D4B666E22244DB275 /* SwiftyJSON.modulemap */,
+				9141A6D65933D3257B37F256DC21D0AF /* SwiftyJSON.xcconfig */,
+				27F016ADA95D1C012A3269D426B9BBA6 /* SwiftyJSON-dummy.m */,
+				8804D79A582D258D9538DC86DAB1DE60 /* SwiftyJSON-prefix.pch */,
+				77182C39C0F0626917FC29CAB94E157F /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		2F427BA1B95FB000C7F0165055B18C72 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E9010E3FEDC3689D2E37F9ADE0853 /* AES256CBC.swift */,
+				59481E50063878E08D75B730661D8DD7 /* BaseDestination.swift */,
+				7E57C47142DB50785B0E36A96249CA32 /* ConsoleDestination.swift */,
+				660399339E42A362AD964004C3BF7A2B /* FileDestination.swift */,
+				B1205ACFEA8991CC078557B70B79F1F6 /* Filter.swift */,
+				4483D4F76C4BCD2994F76082ECB852AF /* SBPlatformDestination.swift */,
+				7EECE383DC84CF27CC5F87CEA044A819 /* SwiftyBeaver.swift */,
+				8A159EFB3275F87E185A490428A43759 /* Support Files */,
+			);
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		3C6457123E7E948756BDC7776DF360A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B91281D2B7C71617C4E06CB634CE1 /* Pods_TangoIndoorMapApp.framework */,
+				1DB77447C802CE8201A96A1B6FA99FCB /* SwiftyBeaver.framework */,
+				118E892C466353EAD6A3EF6942ADD496 /* SwiftyJSON.framework */,
+				8743E3E9CEF72D7EF71E602003D10FF4 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F803C7E2D77E11F2120CB28FE0B795 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ABAD34EEC9B31503E4D9D2970E0F6D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B56AAF6BDDFF02550CA3C5E4D36A1A /* Info.plist */,
+				F170D7F6591FACCF5411D476C0D7FDFA /* Toast-Swift.modulemap */,
+				29862E88A7868DBA509B07227045A8DD /* Toast-Swift.xcconfig */,
+				452CE17E32F488B31692ACD4FF97FC0B /* Toast-Swift-dummy.m */,
+				1A2E7C5F961D7CB2A3F17ECCF7954D18 /* Toast-Swift-prefix.pch */,
+				2C15BF609BFE13B8D2AC739F3F21CC27 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		506E2910CBD97BAED8A71E77A987CFD8 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CCB859F1576FB15F124322341A36238D /* SwiftyJSON.swift */,
+				13390CE3426ADE906C0EB1E273444241 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		5F14531AE389467F510B2A79F1C748B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A0EBB8DC4D2E33BF196568155B599F /* Pods-TangoIndoorMapApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				978B214CB086B9FF8BF59B06C491E5F6 /* Pods */,
+				3C6457123E7E948756BDC7776DF360A2 /* Products */,
+				5F14531AE389467F510B2A79F1C748B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */,
+				EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8A159EFB3275F87E185A490428A43759 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54361DB13E98C31EE23316FBD1EAD61 /* Info.plist */,
+				534A7838170B81514AA932A2613FF30B /* SwiftyBeaver.modulemap */,
+				64BDE803E55079F2EA560B4CB47B2CFF /* SwiftyBeaver.xcconfig */,
+				914F47073985ED16F267D6719CF7BAB3 /* SwiftyBeaver-dummy.m */,
+				37A8FB7B2D08BF0E0047D44EB2E6F565 /* SwiftyBeaver-prefix.pch */,
+				1DA8F17B628237A109B9611DAB1BFBD9 /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		92A0EBB8DC4D2E33BF196568155B599F /* Pods-TangoIndoorMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				69439CAEF4F6F84D6E82766C486BDF97 /* Info.plist */,
+				F1E9445C32A9F8A328202DECC0A4444D /* Pods-TangoIndoorMapApp.modulemap */,
+				C5F07FBE327492ECAF3ED298EDB61B29 /* Pods-TangoIndoorMapApp-acknowledgements.markdown */,
+				7344C1A8E9BFCCDAAE90265E5E8C195A /* Pods-TangoIndoorMapApp-acknowledgements.plist */,
+				59A3EC0D7DD34386F5FBDDBCC352C5E8 /* Pods-TangoIndoorMapApp-dummy.m */,
+				84734727148860348EAFA79E9B0C5176 /* Pods-TangoIndoorMapApp-frameworks.sh */,
+				310B0274F4247B3B9ADEA829E02FBEA3 /* Pods-TangoIndoorMapApp-resources.sh */,
+				818CCD8F913FE02C14E1F1402EC1C96E /* Pods-TangoIndoorMapApp-umbrella.h */,
+				F72343176E58BC04DC3CF1272A824C58 /* Pods-TangoIndoorMapApp.debug.xcconfig */,
+				110408C90177FF3E06B127FAB4F189D7 /* Pods-TangoIndoorMapApp.release.xcconfig */,
+			);
+			name = "Pods-TangoIndoorMapApp";
+			path = "Target Support Files/Pods-TangoIndoorMapApp";
+			sourceTree = "<group>";
+		};
+		978B214CB086B9FF8BF59B06C491E5F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59396F8ED7CFAB775D5F365A476FF16 /* Mapbox-iOS-SDK */,
+				2F427BA1B95FB000C7F0165055B18C72 /* SwiftyBeaver */,
+				506E2910CBD97BAED8A71E77A987CFD8 /* SwiftyJSON */,
+				B688A8E7590AFC3D1F31742D9C8EEA82 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B424AF77D22F8B99970DC67457620384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1765B0EEB471FDC0FBF2BE044FE5E23 /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B688A8E7590AFC3D1F31742D9C8EEA82 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				14940266F330E9501FC3E9C56A94B318 /* Toast.swift */,
+				4ABAD34EEC9B31503E4D9D2970E0F6D6 /* Support Files */,
+			);
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		D59396F8ED7CFAB775D5F365A476FF16 /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B424AF77D22F8B99970DC67457620384 /* Frameworks */,
+			);
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F4C132A42DF3C03177CD071D48724DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8359BDBFA4F92947034F0BDA3ADE28EA /* Pods-TangoIndoorMapApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EADA0FB3D9E86EA02ADF01765C7985 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3502C19CC987540BCBBE32F66BD8C9F /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C070BACC033AEAC073B8CB06CA79BFD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455B558E224452B763039BFBE7E951A4 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB694D2F265275A7446EC195F7EFA6D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9E1AF55A53FC2BE7D8360E294CF22 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51696EF9CEEB950F818EB5A4A10063FB /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3398DEBCF26697710EAA5A6F0D9144F9 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				DFC6156464676D66662D59F20560FC04 /* Sources */,
+				C209F37BC35A9D6B47B4D2AA9F76F0A0 /* Frameworks */,
+				15EADA0FB3D9E86EA02ADF01765C7985 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 1DB77447C802CE8201A96A1B6FA99FCB /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FE3EFEE556A7E46721009B03865CED6 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933C495779DCB85641C632D9824B080C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				82B49396F478D48A057FBD5988B63DEF /* Sources */,
+				9F9E64673E58DAF4582340033C49D999 /* Frameworks */,
+				C070BACC033AEAC073B8CB06CA79BFD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 118E892C466353EAD6A3EF6942ADD496 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		710952131111B022374C794E58562576 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF367253E6A022AAEE68A34EF6BD689F /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				31906941F8133C9B299639D7B33441C3 /* Sources */,
+				ACDE3245246091B8030DDC723A0257BA /* Frameworks */,
+				DB694D2F265275A7446EC195F7EFA6D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 8743E3E9CEF72D7EF71E602003D10FF4 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF54BCC4EE08CD149187C4BFCA46795E /* Pods-TangoIndoorMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C07417AB71F21282592CB5355C6AB7 /* Build configuration list for PBXNativeTarget "Pods-TangoIndoorMapApp" */;
+			buildPhases = (
+				5C742E5027862AA7901D38F4AD828269 /* Sources */,
+				2EE8C158C52AFD281A2DD05B35844388 /* Frameworks */,
+				0F4C132A42DF3C03177CD071D48724DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				871A5BF7790670A5BA80D8EDE1F0DF07 /* PBXTargetDependency */,
+				9309EE6B71533FEBA326293866B05BCE /* PBXTargetDependency */,
+				160CAABF0CA78AFD594D3663AC36CE49 /* PBXTargetDependency */,
+			);
+			name = "Pods-TangoIndoorMapApp";
+			productName = "Pods-TangoIndoorMapApp";
+			productReference = CD8B91281D2B7C71617C4E06CB634CE1 /* Pods_TangoIndoorMapApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C6457123E7E948756BDC7776DF360A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF54BCC4EE08CD149187C4BFCA46795E /* Pods-TangoIndoorMapApp */,
+				51696EF9CEEB950F818EB5A4A10063FB /* SwiftyBeaver */,
+				6FE3EFEE556A7E46721009B03865CED6 /* SwiftyJSON */,
+				710952131111B022374C794E58562576 /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31906941F8133C9B299639D7B33441C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01219B6E20E61FD710DD6C4B51A15C5E /* Toast-Swift-dummy.m in Sources */,
+				1460C922650FA44E1DB4639E011E820B /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C742E5027862AA7901D38F4AD828269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE89C1B19983AA39098790F4B9DC9 /* Pods-TangoIndoorMapApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B49396F478D48A057FBD5988B63DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBC9606FD2A96519E58D920EC3977E4 /* SwiftyJSON-dummy.m in Sources */,
+				220662CFAC132D143995C4FBD38B9E6D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC6156464676D66662D59F20560FC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC32AE8F350DA0AF2E9F51885ED6B6 /* AES256CBC.swift in Sources */,
+				7B1DBCBF26DE40F934E0256943AC3A9A /* BaseDestination.swift in Sources */,
+				E37099F756E82152CB60F0E89E2B0461 /* ConsoleDestination.swift in Sources */,
+				1D3A202B250101C7A69FDA0E8D041270 /* FileDestination.swift in Sources */,
+				421944D702819013D4E910DC62897727 /* Filter.swift in Sources */,
+				1A17F3CDA9BB9831F58C005B6B96B8AA /* SBPlatformDestination.swift in Sources */,
+				5F41D0A9F136D65EC28B69698FE642F3 /* SwiftyBeaver-dummy.m in Sources */,
+				11593F83053BF3B781D79930CA4E394A /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160CAABF0CA78AFD594D3663AC36CE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 710952131111B022374C794E58562576 /* Toast-Swift */;
+			targetProxy = 675C52A993A0CC78FB5A961F7421B60D /* PBXContainerItemProxy */;
+		};
+		871A5BF7790670A5BA80D8EDE1F0DF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 51696EF9CEEB950F818EB5A4A10063FB /* SwiftyBeaver */;
+			targetProxy = A325D3556A6086FF20028D8299BF6445 /* PBXContainerItemProxy */;
+		};
+		9309EE6B71533FEBA326293866B05BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 6FE3EFEE556A7E46721009B03865CED6 /* SwiftyJSON */;
+			targetProxy = 70A3D0A0152E7CC0611BC4AB43A7A002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0820B1D86AB443B7EFEA82F79F46EBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9141A6D65933D3257B37F256DC21D0AF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C413ABAE02A1011A4658476D861504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29862E88A7868DBA509B07227045A8DD /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45D1CFBAF4D71A51B6EA6F1C68DE4E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BDE803E55079F2EA560B4CB47B2CFF /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CC4516A0812523848FE637AF4C76ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29862E88A7868DBA509B07227045A8DD /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A89A38E2714A0A22B4B7AD87D57A607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110408C90177FF3E06B127FAB4F189D7 /* Pods-TangoIndoorMapApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TangoIndoorMapApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TangoIndoorMapApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF7ECB437BD7420D26A4C252112FF8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72343176E58BC04DC3CF1272A824C58 /* Pods-TangoIndoorMapApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TangoIndoorMapApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TangoIndoorMapApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2020DF7026B16CD22065516F069D13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BDE803E55079F2EA560B4CB47B2CFF /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E68D36C8785C438AA29FE258AD6D112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9141A6D65933D3257B37F256DC21D0AF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3398DEBCF26697710EAA5A6F0D9144F9 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D1CFBAF4D71A51B6EA6F1C68DE4E3E /* Debug */,
+				D2020DF7026B16CD22065516F069D13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C07417AB71F21282592CB5355C6AB7 /* Build configuration list for PBXNativeTarget "Pods-TangoIndoorMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7ECB437BD7420D26A4C252112FF8E3 /* Debug */,
+				A89A38E2714A0A22B4B7AD87D57A607C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933C495779DCB85641C632D9824B080C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0820B1D86AB443B7EFEA82F79F46EBB9 /* Debug */,
+				E68D36C8785C438AA29FE258AD6D112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF367253E6A022AAEE68A34EF6BD689F /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC4516A0812523848FE637AF4C76ED9 /* Debug */,
+				0C413ABAE02A1011A4658476D861504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

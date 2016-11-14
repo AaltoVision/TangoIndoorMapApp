@@ -7,21 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43062243F62C97E4350E3F97 /* Pods_TangoIndoorMapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8060ACE834DB12C5AC381E6F /* Pods_TangoIndoorMapApp.framework */; };
+		590B0C5F1DD9BB6700400027 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C5E1DD9BB6700400027 /* GeneralHelper.swift */; };
+		590B0C611DD9BB9700400027 /* SystemSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C601DD9BB9700400027 /* SystemSettings.swift */; };
+		590B0C631DD9BC4700400027 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C621DD9BC4700400027 /* MapViewController.swift */; };
+		590B0C661DD9BCAB00400027 /* MapHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C641DD9BCAB00400027 /* MapHelper.swift */; };
+		590B0C671DD9BCAB00400027 /* MapVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C651DD9BCAB00400027 /* MapVCHelper.swift */; };
+		590B0C691DD9BD8400400027 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C681DD9BD8400400027 /* SearchTableViewController.swift */; };
+		590B0C721DD9BDBA00400027 /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C6B1DD9BDBA00400027 /* MapProtocols.swift */; };
+		590B0C731DD9BDBA00400027 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C6C1DD9BDBA00400027 /* Area.swift */; };
+		590B0C741DD9BDBA00400027 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C6D1DD9BDBA00400027 /* Building.swift */; };
+		590B0C751DD9BDBA00400027 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C6E1DD9BDBA00400027 /* Floor.swift */; };
+		590B0C761DD9BDBA00400027 /* FloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C6F1DD9BDBA00400027 /* FloorView.swift */; };
+		590B0C771DD9BDBA00400027 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C701DD9BDBA00400027 /* Room.swift */; };
+		590B0C781DD9BDBA00400027 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C711DD9BDBA00400027 /* Marker.swift */; };
+		590B0C7A1DD9BDFF00400027 /* MapObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0C791DD9BDFF00400027 /* MapObjects.swift */; };
+		590B0C821DD9D52B00400027 /* Aalto TUAS-talo_1.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C7C1DD9D52B00400027 /* Aalto TUAS-talo_1.geojson */; };
+		590B0C831DD9D52B00400027 /* Aalto TUAS-talo_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C7D1DD9D52B00400027 /* Aalto TUAS-talo_2.geojson */; };
+		590B0C841DD9D52B00400027 /* Aalto TUAS-talo-tango_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C7E1DD9D52B00400027 /* Aalto TUAS-talo-tango_2.geojson */; };
+		590B0C851DD9D52B00400027 /* Aalto TUAS-talo-floorView_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C7F1DD9D52B00400027 /* Aalto TUAS-talo-floorView_2.geojson */; };
+		590B0C861DD9D52B00400027 /* Aalto TUAS-talo-line_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C801DD9D52B00400027 /* Aalto TUAS-talo-line_2.geojson */; };
+		590B0C871DD9D52B00400027 /* otaniemi.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C811DD9D52B00400027 /* otaniemi.geojson */; };
+		590B0C921DD9D54600400027 /* jonathan-floorView_1.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C891DD9D54600400027 /* jonathan-floorView_1.geojson */; };
+		590B0C931DD9D54600400027 /* jonathan-floorView_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8A1DD9D54600400027 /* jonathan-floorView_2.geojson */; };
+		590B0C941DD9D54600400027 /* jonathan-floorView_3.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8B1DD9D54600400027 /* jonathan-floorView_3.geojson */; };
+		590B0C951DD9D54600400027 /* jonathan-tango_1.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8C1DD9D54600400027 /* jonathan-tango_1.geojson */; };
+		590B0C961DD9D54600400027 /* jonathan-tango_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8D1DD9D54600400027 /* jonathan-tango_2.geojson */; };
+		590B0C971DD9D54600400027 /* jonathan-tango_3.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8E1DD9D54600400027 /* jonathan-tango_3.geojson */; };
+		590B0C981DD9D54600400027 /* jonathan_1.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C8F1DD9D54600400027 /* jonathan_1.geojson */; };
+		590B0C991DD9D54600400027 /* jonathan_2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C901DD9D54600400027 /* jonathan_2.geojson */; };
+		590B0C9A1DD9D54600400027 /* jonathan_3.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C911DD9D54600400027 /* jonathan_3.geojson */; };
+		590B0C9C1DD9D55200400027 /* indoor.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 590B0C9B1DD9D55200400027 /* indoor.geojson */; };
 		593D4EDE1DD9B53700F997A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D4EDD1DD9B53700F997A1 /* AppDelegate.swift */; };
-		593D4EE01DD9B53700F997A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D4EDF1DD9B53700F997A1 /* ViewController.swift */; };
 		593D4EE31DD9B53700F997A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593D4EE11DD9B53700F997A1 /* Main.storyboard */; };
 		593D4EE51DD9B53700F997A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593D4EE41DD9B53700F997A1 /* Assets.xcassets */; };
 		593D4EE81DD9B53700F997A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593D4EE61DD9B53700F997A1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3CFDB0EF4F202DDF8B4A3A /* Pods-TangoIndoorMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangoIndoorMapApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		590B0C5E1DD9BB6700400027 /* GeneralHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
+		590B0C601DD9BB9700400027 /* SystemSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSettings.swift; sourceTree = "<group>"; };
+		590B0C621DD9BC4700400027 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		590B0C641DD9BCAB00400027 /* MapHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapHelper.swift; sourceTree = "<group>"; };
+		590B0C651DD9BCAB00400027 /* MapVCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVCHelper.swift; sourceTree = "<group>"; };
+		590B0C681DD9BD8400400027 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		590B0C6B1DD9BDBA00400027 /* MapProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		590B0C6C1DD9BDBA00400027 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		590B0C6D1DD9BDBA00400027 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		590B0C6E1DD9BDBA00400027 /* Floor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		590B0C6F1DD9BDBA00400027 /* FloorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorView.swift; sourceTree = "<group>"; };
+		590B0C701DD9BDBA00400027 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		590B0C711DD9BDBA00400027 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		590B0C791DD9BDFF00400027 /* MapObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapObjects.swift; sourceTree = "<group>"; };
+		590B0C7C1DD9D52B00400027 /* Aalto TUAS-talo_1.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aalto TUAS-talo_1.geojson"; sourceTree = "<group>"; };
+		590B0C7D1DD9D52B00400027 /* Aalto TUAS-talo_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aalto TUAS-talo_2.geojson"; sourceTree = "<group>"; };
+		590B0C7E1DD9D52B00400027 /* Aalto TUAS-talo-tango_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aalto TUAS-talo-tango_2.geojson"; sourceTree = "<group>"; };
+		590B0C7F1DD9D52B00400027 /* Aalto TUAS-talo-floorView_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aalto TUAS-talo-floorView_2.geojson"; sourceTree = "<group>"; };
+		590B0C801DD9D52B00400027 /* Aalto TUAS-talo-line_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aalto TUAS-talo-line_2.geojson"; sourceTree = "<group>"; };
+		590B0C811DD9D52B00400027 /* otaniemi.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = otaniemi.geojson; sourceTree = "<group>"; };
+		590B0C891DD9D54600400027 /* jonathan-floorView_1.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-floorView_1.geojson"; sourceTree = "<group>"; };
+		590B0C8A1DD9D54600400027 /* jonathan-floorView_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-floorView_2.geojson"; sourceTree = "<group>"; };
+		590B0C8B1DD9D54600400027 /* jonathan-floorView_3.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-floorView_3.geojson"; sourceTree = "<group>"; };
+		590B0C8C1DD9D54600400027 /* jonathan-tango_1.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-tango_1.geojson"; sourceTree = "<group>"; };
+		590B0C8D1DD9D54600400027 /* jonathan-tango_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-tango_2.geojson"; sourceTree = "<group>"; };
+		590B0C8E1DD9D54600400027 /* jonathan-tango_3.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jonathan-tango_3.geojson"; sourceTree = "<group>"; };
+		590B0C8F1DD9D54600400027 /* jonathan_1.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jonathan_1.geojson; sourceTree = "<group>"; };
+		590B0C901DD9D54600400027 /* jonathan_2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jonathan_2.geojson; sourceTree = "<group>"; };
+		590B0C911DD9D54600400027 /* jonathan_3.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jonathan_3.geojson; sourceTree = "<group>"; };
+		590B0C9B1DD9D55200400027 /* indoor.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = indoor.geojson; sourceTree = "<group>"; };
 		593D4EDA1DD9B53700F997A1 /* TangoIndoorMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangoIndoorMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593D4EDD1DD9B53700F997A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		593D4EDF1DD9B53700F997A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		593D4EE21DD9B53700F997A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		593D4EE41DD9B53700F997A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593D4EE71DD9B53700F997A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593D4EE91DD9B53700F997A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8060ACE834DB12C5AC381E6F /* Pods_TangoIndoorMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangoIndoorMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2CDC01AD4EE8C4E729544B /* Pods-TangoIndoorMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangoIndoorMapApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +91,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43062243F62C97E4350E3F97 /* Pods_TangoIndoorMapApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590B0C5C1DD9B91500400027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593D4EDD1DD9B53700F997A1 /* AppDelegate.swift */,
+				593D4EE11DD9B53700F997A1 /* Main.storyboard */,
+				593D4EE41DD9B53700F997A1 /* Assets.xcassets */,
+				593D4EE61DD9B53700F997A1 /* LaunchScreen.storyboard */,
+				593D4EE91DD9B53700F997A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		590B0C5D1DD9BB5700400027 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				590B0C641DD9BCAB00400027 /* MapHelper.swift */,
+				590B0C651DD9BCAB00400027 /* MapVCHelper.swift */,
+				590B0C601DD9BB9700400027 /* SystemSettings.swift */,
+				590B0C5E1DD9BB6700400027 /* GeneralHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		590B0C6A1DD9BDA700400027 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				590B0C6B1DD9BDBA00400027 /* MapProtocols.swift */,
+				590B0C6C1DD9BDBA00400027 /* Area.swift */,
+				590B0C6D1DD9BDBA00400027 /* Building.swift */,
+				590B0C6E1DD9BDBA00400027 /* Floor.swift */,
+				590B0C6F1DD9BDBA00400027 /* FloorView.swift */,
+				590B0C701DD9BDBA00400027 /* Room.swift */,
+				590B0C711DD9BDBA00400027 /* Marker.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		590B0C7B1DD9D51800400027 /* geojson */ = {
+			isa = PBXGroup;
+			children = (
+				590B0C881DD9D53600400027 /* Jonathan */,
+				590B0C7C1DD9D52B00400027 /* Aalto TUAS-talo_1.geojson */,
+				590B0C7D1DD9D52B00400027 /* Aalto TUAS-talo_2.geojson */,
+				590B0C7E1DD9D52B00400027 /* Aalto TUAS-talo-tango_2.geojson */,
+				590B0C7F1DD9D52B00400027 /* Aalto TUAS-talo-floorView_2.geojson */,
+				590B0C801DD9D52B00400027 /* Aalto TUAS-talo-line_2.geojson */,
+				590B0C811DD9D52B00400027 /* otaniemi.geojson */,
+				590B0C9B1DD9D55200400027 /* indoor.geojson */,
+			);
+			name = geojson;
+			sourceTree = "<group>";
+		};
+		590B0C881DD9D53600400027 /* Jonathan */ = {
+			isa = PBXGroup;
+			children = (
+				590B0C891DD9D54600400027 /* jonathan-floorView_1.geojson */,
+				590B0C8A1DD9D54600400027 /* jonathan-floorView_2.geojson */,
+				590B0C8B1DD9D54600400027 /* jonathan-floorView_3.geojson */,
+				590B0C8C1DD9D54600400027 /* jonathan-tango_1.geojson */,
+				590B0C8D1DD9D54600400027 /* jonathan-tango_2.geojson */,
+				590B0C8E1DD9D54600400027 /* jonathan-tango_3.geojson */,
+				590B0C8F1DD9D54600400027 /* jonathan_1.geojson */,
+				590B0C901DD9D54600400027 /* jonathan_2.geojson */,
+				590B0C911DD9D54600400027 /* jonathan_3.geojson */,
+			);
+			name = Jonathan;
+			sourceTree = "<group>";
+		};
 		593D4ED11DD9B53700F997A1 = {
 			isa = PBXGroup;
 			children = (
 				593D4EDC1DD9B53700F997A1 /* TangoIndoorMapApp */,
 				593D4EDB1DD9B53700F997A1 /* Products */,
+				98D9AE0DC858C37089B5758B /* Pods */,
+				ADB270B59CF61A890296C65F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +187,32 @@
 		593D4EDC1DD9B53700F997A1 /* TangoIndoorMapApp */ = {
 			isa = PBXGroup;
 			children = (
-				593D4EDD1DD9B53700F997A1 /* AppDelegate.swift */,
-				593D4EDF1DD9B53700F997A1 /* ViewController.swift */,
-				593D4EE11DD9B53700F997A1 /* Main.storyboard */,
-				593D4EE41DD9B53700F997A1 /* Assets.xcassets */,
-				593D4EE61DD9B53700F997A1 /* LaunchScreen.storyboard */,
-				593D4EE91DD9B53700F997A1 /* Info.plist */,
+				590B0C5D1DD9BB5700400027 /* Helper */,
+				590B0C5C1DD9B91500400027 /* Supporting Files */,
+				590B0C6A1DD9BDA700400027 /* Models */,
+				590B0C681DD9BD8400400027 /* SearchTableViewController.swift */,
+				590B0C7B1DD9D51800400027 /* geojson */,
+				590B0C791DD9BDFF00400027 /* MapObjects.swift */,
+				590B0C621DD9BC4700400027 /* MapViewController.swift */,
 			);
 			path = TangoIndoorMapApp;
+			sourceTree = "<group>";
+		};
+		98D9AE0DC858C37089B5758B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E3CFDB0EF4F202DDF8B4A3A /* Pods-TangoIndoorMapApp.debug.xcconfig */,
+				8D2CDC01AD4EE8C4E729544B /* Pods-TangoIndoorMapApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADB270B59CF61A890296C65F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8060ACE834DB12C5AC381E6F /* Pods_TangoIndoorMapApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593D4EEC1DD9B53700F997A1 /* Build configuration list for PBXNativeTarget "TangoIndoorMapApp" */;
 			buildPhases = (
+				B877C10FD593462B14B2E6AF /* [CP] Check Pods Manifest.lock */,
 				593D4ED61DD9B53700F997A1 /* Sources */,
 				593D4ED71DD9B53700F997A1 /* Frameworks */,
 				593D4ED81DD9B53700F997A1 /* Resources */,
+				1B5C7B75E96B3F3BFD3DA6A7 /* [CP] Embed Pods Frameworks */,
+				8B107BFC94B222D6620BA9C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +278,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590B0C831DD9D52B00400027 /* Aalto TUAS-talo_2.geojson in Resources */,
+				590B0C961DD9D54600400027 /* jonathan-tango_2.geojson in Resources */,
 				593D4EE81DD9B53700F997A1 /* LaunchScreen.storyboard in Resources */,
+				590B0C981DD9D54600400027 /* jonathan_1.geojson in Resources */,
+				590B0C9C1DD9D55200400027 /* indoor.geojson in Resources */,
 				593D4EE51DD9B53700F997A1 /* Assets.xcassets in Resources */,
+				590B0C921DD9D54600400027 /* jonathan-floorView_1.geojson in Resources */,
+				590B0C9A1DD9D54600400027 /* jonathan_3.geojson in Resources */,
+				590B0C951DD9D54600400027 /* jonathan-tango_1.geojson in Resources */,
+				590B0C991DD9D54600400027 /* jonathan_2.geojson in Resources */,
+				590B0C971DD9D54600400027 /* jonathan-tango_3.geojson in Resources */,
+				590B0C821DD9D52B00400027 /* Aalto TUAS-talo_1.geojson in Resources */,
+				590B0C941DD9D54600400027 /* jonathan-floorView_3.geojson in Resources */,
+				590B0C931DD9D54600400027 /* jonathan-floorView_2.geojson in Resources */,
+				590B0C861DD9D52B00400027 /* Aalto TUAS-talo-line_2.geojson in Resources */,
+				590B0C871DD9D52B00400027 /* otaniemi.geojson in Resources */,
+				590B0C851DD9D52B00400027 /* Aalto TUAS-talo-floorView_2.geojson in Resources */,
+				590B0C841DD9D52B00400027 /* Aalto TUAS-talo-tango_2.geojson in Resources */,
 				593D4EE31DD9B53700F997A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B5C7B75E96B3F3BFD3DA6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B107BFC94B222D6620BA9C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TangoIndoorMapApp/Pods-TangoIndoorMapApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B877C10FD593462B14B2E6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		593D4ED61DD9B53700F997A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593D4EE01DD9B53700F997A1 /* ViewController.swift in Sources */,
+				590B0C751DD9BDBA00400027 /* Floor.swift in Sources */,
+				590B0C731DD9BDBA00400027 /* Area.swift in Sources */,
+				590B0C771DD9BDBA00400027 /* Room.swift in Sources */,
+				590B0C7A1DD9BDFF00400027 /* MapObjects.swift in Sources */,
+				590B0C611DD9BB9700400027 /* SystemSettings.swift in Sources */,
+				590B0C741DD9BDBA00400027 /* Building.swift in Sources */,
+				590B0C661DD9BCAB00400027 /* MapHelper.swift in Sources */,
 				593D4EDE1DD9B53700F997A1 /* AppDelegate.swift in Sources */,
+				590B0C631DD9BC4700400027 /* MapViewController.swift in Sources */,
+				590B0C761DD9BDBA00400027 /* FloorView.swift in Sources */,
+				590B0C721DD9BDBA00400027 /* MapProtocols.swift in Sources */,
+				590B0C5F1DD9BB6700400027 /* GeneralHelper.swift in Sources */,
+				590B0C671DD9BCAB00400027 /* MapVCHelper.swift in Sources */,
+				590B0C691DD9BD8400400027 /* SearchTableViewController.swift in Sources */,
+				590B0C781DD9BDBA00400027 /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +490,7 @@
 		};
 		593D4EED1DD9B53700F997A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3CFDB0EF4F202DDF8B4A3A /* Pods-TangoIndoorMapApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ES4B789T7A;
@@ -272,6 +504,7 @@
 		};
 		593D4EEE1DD9B53700F997A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2CDC01AD4EE8C4E729544B /* Pods-TangoIndoorMapApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ES4B789T7A;
@@ -302,6 +535,7 @@
 				593D4EEE1DD9B53700F997A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

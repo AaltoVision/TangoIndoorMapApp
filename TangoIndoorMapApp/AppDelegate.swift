@@ -7,15 +7,49 @@
 //
 
 import UIKit
+import SwiftyBeaver
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let mapDataSharedInstance: MapData = MapData.sharedInstance
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let console = ConsoleDestination()  // log to Xcode Console
+        log.addDestination(console)
+        
+//        var keys: NSDictionary?
+//        
+//        if let path = Bundle.main.path(forResource: "Keys", ofType: "plist") {
+//            keys = NSDictionary(contentsOfFile: path)
+//        }
+//        if let dict = keys {
+//            let applicationId = dict["parseApplicationId"] as? String
+//            let clientKey = dict["parseClientKey"] as? String
+//            
+//            // Initialize Parse.
+//                
+//            .setApplicationId(applicationId!, clientKey: clientKey!)
+//        }
+        
+        /// Load main view
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+        // Set Background Color of window
+        window?.backgroundColor = UIColor.white
+        
+        // Allocate memory for an instance of the 'MainViewController' class
+        let mainViewController = MapViewController()
+        
+        // Set the root view controller of the app's window
+        window!.rootViewController = mainViewController
+        
+        // Make the window visible
+        window!.makeKeyAndVisible()
         return true
     }
 

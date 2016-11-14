@@ -1,0 +1,21 @@
+PODS:
+  - Mapbox-iOS-SDK (3.3.6)
+  - SwiftyBeaver (1.1.1)
+  - SwiftyJSON (3.1.1)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 3.3.6)
+  - SwiftyBeaver (~> 1.1.1)
+  - SwiftyJSON (~> 3.1.1)
+  - Toast-Swift (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 1651ab31beec917b60ccbb8f737d0435ec80eeb3
+  SwiftyBeaver: 2b68694df862381235e32bcfc4ec991e26bf131d
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: 831aa68abc96ec2f925500843d668ebb4366791c
+
+COCOAPODS: 1.1.0.rc.2
