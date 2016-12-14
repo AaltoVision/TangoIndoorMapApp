@@ -21,6 +21,9 @@ Here's an example project structure:
 
 ![project structure](/README_images/project structure.png)
 
+## Data
+The raw data(pictures, point cloud and etc.) can be found [here](https://drive.google.com/open?id=0B9jxZqYe1-S4b2RuSngyRmphTHc)
+
 ## Dependencies
 * Mapbox-iOS-SDK 3.3.6
 * SwiftyJSON 3.1.1
